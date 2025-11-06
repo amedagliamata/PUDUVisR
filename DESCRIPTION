@@ -1,0 +1,27 @@
+Package: puduapp
+Title: PUDUApp
+Version: 0.1.0
+Authors@R: person("test", email = "amedagliamata2@gmail.com", role = c("aut", "cre"))
+Description: PUDUApp - Metagenomics data analysis in a shiny app.
+Depends: R (>= 4.2.0)
+Imports:
+    shiny,
+    plotly,
+    bslib,
+    ggplot2,
+    dplyr,
+    data.table,
+    UpSetR,
+    DT,
+    ggrepel,
+    vegan,
+    phyloseq,
+    microbiome
+Suggests:
+    roxygen2
+biocViews: Software, Microbiome, Metagenomics, Visualization
+Additional_repositories: https://bioconductor.org/packages/release/bioc
+License: MIT
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+SystemRequirements: C++14
