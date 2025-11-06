@@ -1,8 +1,8 @@
-Package: puduapp
-Title: PUDUApp
+Package: PUDUVisR
+Title: PUDUVisR
 Version: 0.1.0
 Authors@R: person("test", email = "amedagliamata2@gmail.com", role = c("aut", "cre"))
-Description: PUDUApp - Metagenomics data analysis in a shiny app.
+Description: PUDUVisR - Metagenomics data analysis in a shiny app.
 Depends: R (>= 4.2.0)
 Imports:
     shiny,
