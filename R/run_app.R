@@ -9,7 +9,7 @@
 #' @export
 run_app <- function(launch.browser = TRUE, ...) {
   # Prefer installed package app directory; fall back to local inst/app when developing
-  app_dir <- system.file("app", package = "puduapp")
+  app_dir <- system.file("app", package = "PUDUVisR")
   if (app_dir == "") {
     # Attempt to use local development copy at project root 'inst/app'
     local_app <- file.path(getwd(), "inst", "app")
