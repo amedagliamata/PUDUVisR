@@ -25,7 +25,7 @@ MIN_SAMPLES_BETA <- 3
 
 source_helper <- function(type, filename) {
     # Try installed package first
-    path <- system.file(type, filename, package = "puduapp")
+    path <- system.file(type, filename, package = "PUDUVisR")
     if (nzchar(path)) {
         source(path, local = FALSE)
         return(invisible(TRUE))

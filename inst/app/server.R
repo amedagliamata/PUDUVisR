@@ -1,7 +1,7 @@
-source(system.file("helpers", "plots.R", package = "puduapp"))
-source(system.file("helpers", "validation.R", package = "puduapp"))
-source(system.file("helpers", "processing.R", package = "puduapp"))
-source(system.file("helpers", "downloads.R", package = "puduapp"))
+source(system.file("helpers", "plots.R", package = "PUDUVisR"))
+source(system.file("helpers", "validation.R", package = "PUDUVisR"))
+source(system.file("helpers", "processing.R", package = "PUDUVisR"))
+source(system.file("helpers", "downloads.R", package = "PUDUVisR"))
 
 server <- function(input, output, session) {
 
@@ -169,7 +169,7 @@ server <- function(input, output, session) {
       find_demo_file <- function() {
         # Primary strategy: Use system.file to locate example data within helpers
         # Since example/ is now in inst/helpers/example/, it will be included in package installation
-        demo_path <- system.file("helpers", "example", "example_data.rds", package = "puduapp")
+        demo_path <- system.file("helpers", "example", "example_data.rds", package = "PUDUVisR")
         if (nzchar(demo_path) && file.exists(demo_path)) {
           return(normalizePath(demo_path))
         }
