@@ -4,6 +4,8 @@
 
 PUDUVisR is an interactive R Shiny web application for analyzing and visualizing microbiome data from Kraken/Bracken reports or phyloseq objects. The application provides comprehensive tools for alpha diversity analysis, beta diversity visualization, taxonomic composition plots, and shared taxa analysis.
 
+Its name refers to the pudú (*Pudu puda*), the smallest deer in the world, native to the temperate forests of southern Chile. Just as the animal occupies a small ecological footprint while maintaining high adaptability, PUDU is intentionally designed as a compact and modular workflow, providing  lightweight but effective framework for microbiome and metagenomic analysis
+
 ## Features
 
 ### 📊 **Data Input Support**
